@@ -1,0 +1,43 @@
+.navbar {
+    .navbar-nav {
+        margin-left: 4em;
+        .nav-link {
+            color: #000000;
+            font-size: 1em;
+            &:hover {
+                color: #000000;
+            }
+        }
+        .nav-item {
+            position: relative;
+            &::after {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                background-color: #000000;
+                width: 0%;
+                content: "";
+                height: 4px;
+            }
+            &:hover::after {
+                width: 100%;
+            }
+        }
+    }
+    @media only screen and (min-width: 992px) {
+        padding: 0;
+        .navbar-brand {
+            padding: 0 0.7em;
+        }
+        .navbar-nav {
+            .nav-link {
+                padding: -1em 0;
+            }
+            .nav-item {
+                margin: 0 0.5em;
+            }
+        }
+    }
+}

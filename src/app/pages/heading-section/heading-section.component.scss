@@ -1,0 +1,28 @@
+.logo_image {
+    width: 200px;
+    height: 200px;
+}
+
+.background_image {
+    background: #40422f url("../../../assets/slider-left-img_2000x.webp") no-repeat;
+    background-size: 100%;
+}
+
+.heading_title {
+    font-size: 70px;
+}
+
+.heading_sub-title {
+    width: 270px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo_image {
+        width: 135px;
+        height: 135px;
+    }
+    .background_image {
+        height: 650px;
+        background-size: 100%;
+    }
+}

@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+$app-black: #000000;
+$backgroundColor: #313323;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.heading_info {
+    background-color: $backgroundColor;
+    color: #ffffff;
+}

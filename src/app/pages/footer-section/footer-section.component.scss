@@ -28,3 +28,41 @@ ul {
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .footer__heading {
+        margin: 0 0 50px;
+    }
+    ul {
+        li {
+            a {
+                text-decoration: none;
+                color: #000;
+                font-weight: 400;
+                font-size: 1em;
+            }
+        }
+    }
+    .accordion {
+        .accordion-item {
+            .accordion-header {
+                .accordion-button {
+                    background-color: #3e402d;
+                    color: #f9f2ea;
+                }
+            }
+        }
+    }
+    .accordion-collapse {
+        .accordion-body {
+            background-color: #3e402d;
+            ul {
+                li {
+                    a {
+                        color: #f9f2ea;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -2,6 +2,7 @@
     padding: 70px 0;
     background-color: #3e402d;
 }
+
 .footer__heading {
     margin: 0 0 70px;
     font-size: 22px;
@@ -9,6 +10,7 @@
     line-height: 45px;
     font-weight: 700;
 }
+
 .footer-right,
 h3 {
     color: #ffffff;
@@ -18,6 +20,7 @@ h3 {
     padding: 10px 0px;
     margin: 0px;
 }
+
 ul {
     li {
         a {
@@ -49,6 +52,10 @@ ul {
                 .accordion-button {
                     background-color: #3e402d;
                     color: #f9f2ea;
+                }
+                .accordion-button:focus {
+                    outline: 0;
+                    border: 0;
                 }
             }
         }

@@ -1,0 +1,43 @@
+.footer-bottom {
+    background-color: #313323;
+    padding: 20px 0;
+}
+.copyright span {
+    letter-spacing: 0.04em;
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0.8);
+}
+.footer-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.footer-link {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: width 0.3s;
+}
+
+.footer-link:hover::after {
+    width: 100%;
+}
+div .link:hover {
+    color: #fff;
+}

@@ -1,11 +1,12 @@
+$navtextcolor: #9c9384;
 .navbar {
     .navbar-nav {
-        margin-left: 4em;
+        margin-left: 10em;
         .nav-link {
-            color: #000000;
-            font-size: 1em;
+            color: $navtextcolor;
+            font-size: 1.3em;
             &:hover {
-                color: #000000;
+                color: $navtextcolor;
             }
         }
         .nav-item {
@@ -19,12 +20,15 @@
                 background-color: #000000;
                 width: 0%;
                 content: "";
-                height: 4px;
+                height: 2px;
             }
             &:hover::after {
                 width: 100%;
             }
         }
+    }
+    .loginbtn {
+        color: $navtextcolor;
     }
     @media only screen and (min-width: 992px) {
         padding: 0;

@@ -1,13 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
 $app-black: #000000;
-$backgroundColor: #313323;
+$backgroundcolor: #313323;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    font-family: sans-serif;
+    font-family: serif;
 }
 
 .fs-48 {
@@ -15,6 +16,26 @@ $backgroundColor: #313323;
 }
 
 .heading_info {
-    background-color: $backgroundColor;
+    background-color: $backgroundcolor;
     color: #ffffff;
+}
+
+.fontbolder {
+    font-weight: $font-weight-bold;
+}
+
+.fontbold {
+    font-weight: $font-weight-normal;
+}
+.textcount p {
+    font-size: 70px;
+    line-height: 77px;
+    font-weight: $font-weight-bold;
+}
+.marginb100 {
+    margin-bottom: 6.3em;
+}
+
+.marginb30 {
+    margin-bottom: 30px;
 }

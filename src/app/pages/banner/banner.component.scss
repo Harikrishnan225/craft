@@ -1,0 +1,59 @@
+.banner-backgroundcolor {
+    background-color: #e9e1d8;
+}
+.banner_heading {
+    font-size: 50px;
+    overflow: hidden;
+    line-height: 58px;
+}
+.banner_subtitle {
+    font-size: 20px;
+    line-height: 30px;
+}
+.banner_content {
+    padding: 115px 0;
+}
+.banner-image {
+    background-image: url(../../../assets/tree.webp);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner_heading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .banner_subtitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .banner-image {
+        background-size: 9em;
+        background-position-y: bottom;
+    }
+    .banner_content {
+        padding: 68px 0;
+    }
+    .textcount {
+        p {
+            font-size: 36px;
+            line-height: 40px;
+            font-weight: 700;
+        }
+        span {
+            font-size: 13px;
+            line-height: 17px;
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .banner_heading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .banner-image {
+        background-size: 16em 28em;
+        background-position-y: center;
+    }
+}

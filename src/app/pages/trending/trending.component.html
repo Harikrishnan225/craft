@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <p class="mb-0">For this Season</p>
+            <div class="d-lg-flex justify-content-between align-items-center">
+                <span class="trending__heading">Trending & New</span>
+                <div>
+                    <app-seeall-button></app-seeall-button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <app-product-card *ngFor="let productdetails of "></app-product-card>
+    </div>
+</div>

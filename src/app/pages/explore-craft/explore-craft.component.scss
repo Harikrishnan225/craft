@@ -1,0 +1,48 @@
+.explore__component {
+    background-color: #3e402d;
+    background-image: url("//src/assets/counter-bg.webp");
+    padding: 94px 0;
+    .explore__heading {
+        font-size: 40px;
+        color: #f9f2ea;
+        margin-bottom: 36px;
+        padding-top: 41px;
+        font-size: 700;
+        line-height: 44px;
+    }
+    .learnmore {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #f9f2ea;
+        border-bottom: 1px solid #f9f2ea;
+    }
+}
+.count100 {
+    font-size: 70px;
+    line-height: 77px;
+    font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+    .explore__component {
+        padding: 20px 0;
+        .explore__heading {
+            font-size: 28px;
+            line-height: 30px;
+            margin-bottom: 15px;
+        }
+        .learnmore {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+    .count100 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .craft-text {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 17px;
+    }
+}

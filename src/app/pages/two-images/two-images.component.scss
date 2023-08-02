@@ -1,0 +1,26 @@
+.sectiontwo img {
+    width: 52.5em;
+}
+.girlimg {
+    height: 30.6em;
+}
+
+@media only screen and (max-width: 764px) {
+    .sectiontwo img {
+        max-width: 100%;
+        height: auto;
+    }
+    .girlimg {
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .sectiontwo img {
+        width: 30.5em;
+        margin-right: 10px;
+    }
+    .girlimg {
+        width: 13.5em;
+        height: 18em;
+    }
+}

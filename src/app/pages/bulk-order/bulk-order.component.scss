@@ -1,0 +1,73 @@
+$buttonbackground: #313323;
+$buttoncolor: #fff;
+
+.bulk-orders {
+    height: 34em;
+}
+.place-order {
+    background: #eae2d8;
+}
+.learnbtn {
+    background: $buttonbackground;
+    border: 1px solid $buttonbackground;
+    padding: 12px 28px;
+    font-weight: 400;
+    font-size: 20px;
+    color: $buttoncolor;
+    margin-right: 13px;
+}
+.getbtn {
+    background: transparent;
+    color: #27221d;
+    border: 1px solid #27221d;
+    padding: 12px 28px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.getbtn:hover {
+    background: $buttonbackground;
+    border: 1px solid $buttonbackground;
+    color: $buttoncolor;
+}
+.bulk_order {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.bulk_order-para {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.elephant_img {
+    width: 30em;
+}
+@media only screen and (max-width: 768px) {
+    .place-order {
+        margin: 70px auto 50px;
+    }
+    .bulk_order {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .bulk_order-para {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .elephant_img {
+        width: 20em;
+    }
+    .bulk_order {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .bulk_order-para {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+}

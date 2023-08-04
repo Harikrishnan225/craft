@@ -13,6 +13,9 @@ import { BulkOrderComponent } from '../bulk-order/bulk-order.component';
 import { ExploreCollectionsComponent } from '../explore-collections/explore-collections.component';
 import { FooterSectionComponent } from '../footer-section/footer-section.component';
 import { FooterComponent } from '../footer/footer.component';
+import { HeartResidesComponent } from '../heart-resides/heart-resides.component';
+import { MenThingsComponent } from '../men-things/men-things.component';
+import { WonderGrowingComponent } from '../wonder-growing/wonder-growing.component';
 
 @Component({
   selector: 'app-shell',
@@ -27,7 +30,10 @@ import { FooterComponent } from '../footer/footer.component';
     ExploreCraftComponent,
     ChoicesSectionComponent,
     TwoImagesComponent,
+    HeartResidesComponent,
     CraftFormComponent,
+    MenThingsComponent,
+    WonderGrowingComponent,
     BulkOrderComponent,
     ExploreCollectionsComponent,
     FooterSectionComponent,

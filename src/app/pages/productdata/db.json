@@ -1,49 +1,206 @@
 {
-    "Trending":  [
+    "Trending": [
         {
-            "image":"/assets/OccasionWear.webp",
-            "title":"Occasion Wear. Georgette Lehariya Kurta Set With Beadwork",
-            "price":"3480"
+            "image": "src/assets/OccasionWear.webp",
+            "title": "Occasion Wear. Georgette Lehariya Kurta Set With Beadwork",
+            "price": "3480"
         },
         {
-            "image":"",
-            "title":"",
-            "price":""
+            "image": "src/assets/Handwoven.webp",
+            "title": "Handwoven, Organic Kala Cotton Shirt - Grey",
+            "price": "3567"
         },
         {
-            "image":"",
-            "title":"",
-            "price":""
+            "image": "src/assets/Pure_Silver.webp",
+            "title": "Pure Silver Traditional Maharashtrian Neckpiece - Taramndal ",
+            "price": "5373"
         },
         {
-            "image":"",
-            "title":"",
-            "price":""
+            "image": "src/assets/Excluisve.webp",
+            "title": "Exclusive Handwoven Kilim Rug (8 x 5 ft)",
+            "price": "4266"
         },
         {
-            "image":"",
-            "title":"",
-            "price":""
+            "image": "src/assets/TheIndiaCraftHouse.webp",
+            "title": "The India Craft House Bastar Tribal Bird Figurine (Set of 2)",
+            "price": "2437"
         },
         {
-            "image":"",
-            "title":"",
-            "price":""
+            "image": "src/assets/MarbleInlayRound.webp",
+            "title": "Marble Inlay Round Plate Curio with Stand",
+            "price": "4356"
         },
         {
-            "image":"",
-            "title":"",
-            "price":""
+            "image": "src/assets/Elegance.webp",
+            "title": "Elegance in Linen. Pure Handwoven Linen Saree - Black & Dull Gold (BP)",
+            "price": "3325"
         },
         {
-            "image":"",
-            "title":"",
-            "price":""
+            "image": "src/assets/TraditionalElegance.HandEmbroideredIlkal.webp",
+            "title": "Traditional Elegance. Hand Embroidered Ilkal & Zardozi Ethnic",
+            "price": "4234"
+        }
+    ],
+    "choices": [
+        {
+            "image": "src/assets/Sanganeri.webp",
+            "title": "Sanganeri Block Printed Chanderi Slip Kurta Set With Beadwork",
+            "price": "4256"
         },
         {
-            "image":"",
-            "title":"",
-            "price":""
+            "image": "src/assets/LambaniTribalNeckpiece-ChandaTitri.webp",
+            "title": "Lambani Tribal Neckpiece - Chanda Titri",
+            "price": "4352"
+        },
+        {
+            "image": "src/assets/HandknottedCrochet.webp",
+            "title": "Handknotted Crochet Tote Bag - Round, White & Yellow",
+            "price": "4263"
+        },
+        {
+            "image": "src/assets/Bagru.webp",
+            "title": "Bagru Block Printed & Running Stitch Kurta & Pants - Blue Peacocks",
+            "price": "4262"
+        },
+        {
+            "image": "src/assets/Elegance.webp",
+            "title": "Elegance in Linen. Handwoven Linen Saree - Dark Pink & Dull Gold Butis",
+            "price": "2436"
+        },
+        {
+            "image": "src/assets/BagruBlockPrinted.webp",
+            "title": "Bagru Block Printed & Beadwork Cotton Wrap Skirt & Sleeveless",
+            "price": "3253"
+        },
+        {
+            "image": "src/assets/Exclusive.webp",
+            "title": "Exclusive, Fine Kashmiri Hand Embroidered Chanderi Kurta",
+            "price": "2335"
+        },
+        {
+            "image": "src/assets/TraditionalElegance.HandEmbroideredIlkal.webp",
+            "title": "Traditional Elegance. Hand Embroidered Ilkal & Zardozi",
+            "price": "2342"
+        }
+    ],
+    "hearts": [
+        {
+            "image": "src/assets/Tambat_20Handbeaten.jpg",
+            "title": "Tambat Handbeaten Copper Tumblers (Set of 6)",
+            "price": "2534"
+        },
+        {
+            "image": "src/assets/KalighatPaintingWithMount.webp",
+            "title": "Kalighat Painting With Mount - The Couple (25 x 17)",
+            "price": "2437"
+        },
+        {
+            "image": "src/assets/DhokraCraftCurio.webp",
+            "title": "Dhokra Craft Curio - Farmer",
+            "price": "5423"
+        },
+        {
+            "image": "src/assets/Handwoven jute.webp",
+            "title": "Handwoven Jute Table Runner & Mats (Set of 5) - Dull Mustard & Rust",
+            "price": "3453"
+        },
+        {
+            "image": "src/assets/Kashmiri.webp",
+            "title": "Kashmiri Crewel Work Cushion Covers - Moroccan Appeal",
+            "price": "5431"
+        },
+        {
+            "image": "src/assets/coco.webp",
+            "title": "Coconut Craft Table Lamp",
+            "price": "5427"
+        },
+        {
+            "image": "src/assets/Bastar_Tribal_Art.webp",
+            "title": "Bastar Tribal Art - Candle Holders - Deer (Set of 2)",
+            "price": "5123"
+        },
+        {
+            "image": "src/assets/Kashmiri.webp",
+            "title": "Kashida Pattu Woven Cushion Covers - Black Beauty (Set of 2)",
+            "price": "2145"
+        }
+    ],
+    "oldestcraft": [
+        {
+            "image": "src/assets/Dhokra_20Metal.webp",
+            "title": "Dhokra Metal Craft Curio - Village Woman",
+            "price": "4237"
+        },
+        {
+            "image": "src/assets/DhokraCraftCurio.webp",
+            "title": "Dhokra Metal Craft Curio - Bullock Cart",
+            "price": "3422"
+        }
+    ],
+    "thingsmen": [
+        {
+            "image": "src/assets/SummerBreeze.webp",
+            "title": "Summer Breeze - Tie & Dye Cotton Shirt - Dull Blue",
+            "price": "4322"
+        },
+        {
+            "image": "src/assets/handcraftedleathercross.webp",
+            "title": "Handcrafted Leather Cross Body Bag With Hand Stitch Detail",
+            "price": "5142"
+        },
+        {
+            "image": "src/assets/RuggedLeatherDufflerBag.webp",
+            "title": "Rugged Leather Duffler Bag (Length-22)",
+            "price": "3425"
+        },
+        {
+            "image": "src/assets/OrganicKalaCottonShirt.webp",
+            "title": "Organic Kala Cotton Shirt - Off White",
+            "price": "5242"
+        }
+    ],
+    "growing": [
+        {
+            "image": "src/assets/Handcrafted Snakes.webp",
+            "title": "Handcrafted Snakes & Ladders Board Game",
+            "price": "2522"
+        },
+        {
+            "image": "src/assets/Jute_Craft.webp",
+            "title": "Jute Craft - Doll Keychain (Set of 2)",
+            "price": "2534"
+        },
+        {
+            "image": "src/assets/HandcraftedWooden.webp",
+            "title": "Handcrafted Wooden Puzzles With Box (Set of 3)",
+            "price": "5242"
+        },
+        {
+            "image": "src/assets/HandcraftedWoodenKitKatSoundToy.webp",
+            "title": "Handcrafted Wooden Kit Kat Sound Toy - Twirling Elephant",
+            "price": "3242"
+        }
+    ],
+    "workstyle": [
+        {
+            "image": "src/assets/BidriCraftDeskAccessories.webp",
+            "title": "Bidri Craft Set - Paper Cutter & Paper Weight",
+            "price": "5424"
+        },
+        {
+            "image": "src/assets/DhokraCraftStationeryStand.webp",
+            "title": "Dhokra Craft Stationery Stand, The Web",
+            "price": "2321"
+        },
+        {
+            "image": "src/assets/PhadArt-DeskSet.webp",
+            "title": "Phad Art - Desk Set (Set of 2)",
+            "price": "4321"
+        },
+        {
+            "image": "src/assets/BidriCraftDeskAccessories.webp",
+            "title": "Bidri Craft Desk Accessories (Set of 4 - Paper Weight, Pen Stand, Paper",
+            "price": "5423"
         }
     ]
 }

@@ -4,6 +4,7 @@ $app-black: #000000;
 $backgroundcolor: #313323;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -38,4 +39,24 @@ $font-weight-bold: 700;
 
 .marginb30 {
     margin-bottom: 30px;
+}
+
+.contentheader {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .contentheader {
+        font-size: 36px;
+        margin-bottom: 17px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .contentheader {
+        .craft__heading {
+            font-size: 36px;
+            line-height: 40px;
+        }
+    }
 }

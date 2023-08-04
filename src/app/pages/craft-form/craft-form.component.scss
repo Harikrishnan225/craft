@@ -12,11 +12,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .craft__heading {
-        font-size: 36px;
-        line-height: 40px;
-        margin-bottom: 17px;
-    }
     .craft__sub-heading {
         width: 18.5em;
         font-weight: 400;
@@ -24,9 +19,4 @@
         line-height: 30px;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    .craft__heading {
-        font-size: 36px;
-        line-height: 40px;
-    }
-}
+  

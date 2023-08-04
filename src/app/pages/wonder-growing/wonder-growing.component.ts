@@ -4,16 +4,16 @@ import { SeeallButtonComponent } from '../seeall-button/seeall-button.component'
 import { ProductCardComponent } from '../product-card/product-card.component';
 
 @Component({
-  selector: 'app-trending',
+  selector: 'app-wonder-growing',
   standalone: true,
   imports: [
     CommonModule,
     SeeallButtonComponent,
     ProductCardComponent
   ],
-  templateUrl: './trending.component.html',
-  styleUrls: ['./trending.component.scss']
+  templateUrl: './wonder-growing.component.html',
+  styleUrls: ['./wonder-growing.component.scss']
 })
-export class TrendingComponent {
+export class WonderGrowingComponent {
 
 }

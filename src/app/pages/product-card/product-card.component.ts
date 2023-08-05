@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./product-card.component.scss']
 })
 export class ProductCardComponent {
-  image: string = '';
-  price: number = 0;
-  title: string = '';
+  @Input() title!: string;
+  @Input() image!: string;
+  @Input() price!: string;
 }

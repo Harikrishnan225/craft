@@ -29,6 +29,7 @@ $navtextcolor: #9c9384;
     }
     .loginbtn {
         color: $navtextcolor;
+        cursor: pointer;
     }
     @media only screen and (min-width: 992px) {
         padding: 0;

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SeeallButtonComponent } from '../seeall-button/seeall-button.component';
 import { ProductCardComponent } from '../product-card/product-card.component';
+import data from '../../../assets/db.json';
 
 @Component({
   selector: 'app-wonder-growing',
@@ -15,5 +16,5 @@ import { ProductCardComponent } from '../product-card/product-card.component';
   styleUrls: ['./wonder-growing.component.scss']
 })
 export class WonderGrowingComponent {
-
+data = data;
 }

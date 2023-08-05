@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductCardComponent } from '../product-card/product-card.component';
 import { SeeallButtonComponent } from '../seeall-button/seeall-button.component';
+import data from '../../../assets/db.json';
 
 @Component({
   selector: 'app-choices-section',
@@ -15,5 +16,5 @@ import { SeeallButtonComponent } from '../seeall-button/seeall-button.component'
   styleUrls: ['./choices-section.component.scss']
 })
 export class ChoicesSectionComponent {
-
+data = data;
 }

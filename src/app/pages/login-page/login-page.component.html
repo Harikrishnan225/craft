@@ -1,0 +1,30 @@
+<!-- login.component.html -->
+
+<app-navbar></app-navbar>
+<div class='login container text-center' style='width: 35%; margin: 100px auto;'>
+  <h1 class='login-heading text-start'>Welcome Back</h1>
+  <form [action]='' class='login-form'>
+    <div>
+      <label for='Email Address'>EMAIL ADDRESS*</label><br />
+      <input type='email' />
+    </div>
+    <div>
+      <label for='password'>PASSWORD*</label><br />
+      <input type='password' />
+    </div>
+    <p class='forget-password'>
+      <a href='' class='text-decoration-none text-dark'>Forget Password?</a>
+    </p>
+    <div class='button-login'>
+      <input type='submit' value='Sign In' />
+    </div>
+  </form>
+  <p class='or-text'>OR</p>
+  <div class='social-icons'>
+    <a href='' class='text-decoration-none facebook-icon'>Facebook<i class='bi bi-facebook'></i></a>
+    <a href='' class='text-decoration-none google-icon'>Google<i class='bi bi-google'></i></a>
+  </div>
+  <p class='login-create'>New to The Indian Craft House <a routerLink='/Signupform' class='text-dark'>Create Account</a></p>
+</div>
+<app-footer-section></app-footer-section>
+<app-footer></app-footer>

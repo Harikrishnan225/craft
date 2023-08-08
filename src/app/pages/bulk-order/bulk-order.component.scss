@@ -1,5 +1,6 @@
 $buttonbackground: #313323;
 $buttoncolor: #fff;
+$font-size-19: 19px;
 
 .bulk-orders {
     height: 34em;
@@ -12,7 +13,7 @@ $buttoncolor: #fff;
     border: 1px solid $buttonbackground;
     padding: 12px 28px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: $font-size-19;
     color: $buttoncolor;
     margin-right: 13px;
 }
@@ -22,7 +23,7 @@ $buttoncolor: #fff;
     border: 1px solid #27221d;
     padding: 12px 28px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: $font-size-19;
 }
 .getbtn:hover {
     background: $buttonbackground;
@@ -35,7 +36,7 @@ $buttoncolor: #fff;
     font-weight: 700;
 }
 .bulk_order-para {
-    font-size: 20px;
+    font-size: $font-size-19;
     line-height: 30px;
     font-weight: 400;
     margin-bottom: 40px;
@@ -45,7 +46,7 @@ $buttoncolor: #fff;
 }
 @media only screen and (max-width: 768px) {
     .place-order {
-        margin: 70px auto 50px;
+        margin: 70px auto 33px;
     }
     .bulk_order {
         font-size: 36px;
@@ -62,9 +63,11 @@ $buttoncolor: #fff;
     .getbtn {
         width: 100%;
     }
-    
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    .bulk-orders {
+        height: 29em;
+    }
     .elephant_img {
         width: 20em;
     }

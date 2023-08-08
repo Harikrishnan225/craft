@@ -1,17 +1,20 @@
 <div class="container">
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 col-md-12 marginb60">
             <p class="mb-0">For this Season</p>
-            <div class="d-lg-flex justify-content-between align-items-center">
-                <span class="contentheader">Trending & New</span>
+            <div class="d-md-flex justify-content-between align-items-center">
+                <div class="contentheader">Trending & New</div>
                 <div class="d-none d-md-inline">
                     <app-seeall-button></app-seeall-button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-3 col-md-4 col-6" *ngFor="let item of data.Trending">
+    <div class="row marginb44">
+        <div class="col-lg-3 col-md-4 col-6 ps-1" *ngFor="let item of data.Trending">
             <app-product-card [title]="item.title" [image]="item.image" [price]="item.price"></app-product-card>
+        </div>
+        <div class="col-12">
+            <button class="button__seeall w-100 d-md-none">See All</button>
         </div>
     </div>

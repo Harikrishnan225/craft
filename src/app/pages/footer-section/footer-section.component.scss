@@ -1,5 +1,5 @@
 .footer-top {
-    padding: 70px 0;
+    padding: 60px 0;
     background-color: #3e402d;
 }
 
@@ -8,7 +8,6 @@
     font-size: 22px;
     color: #f9f2ea;
     line-height: 45px;
-    font-weight: 700;
 }
 
 .footer-right,
@@ -34,7 +33,7 @@ ul {
 
 @media screen and (max-width: 768px) {
     .footer__heading {
-        margin: 0 0 50px;
+        margin: 0 0 30px;
     }
     ul {
         li {

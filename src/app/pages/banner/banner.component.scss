@@ -17,6 +17,7 @@
     background-image: url(../../../assets/tree.webp);
     background-repeat: no-repeat;
     background-position-x: right;
+    margin-bottom: var(--marginbtm100);
 }
 
 @media only screen and (max-width: 768px) {
@@ -29,11 +30,13 @@
         line-height: 22px;
     }
     .banner-image {
-        background-size: 9em;
-        background-position-y: bottom;
+        background-size: 14em;
+        background-position-x: 156%;
+        background-position-y: 129%;
+        margin-bottom: var(--marginbtm100);
     }
     .banner_content {
-        padding: 68px 0;
+        padding: 40px 4px 4.5em 0;
     }
     .textcount {
         p {

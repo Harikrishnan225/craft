@@ -1,12 +1,12 @@
 <div class='container'>
     <div class="row">
-        <div class="position-relative">
-            <a href="" class='card-anchor'>
+        <div class="col-12 col-md-12 position-relative product-card">
+            <a href="#" class='text-decoration-none'>
                 <i class="bi bi-heart heart-icon position-absolute"></i>
-                <img [src]="image" alt="card-img" />
-                <p class='card-text'>{{ title }}</p>
+                <img [src]="image" alt="card-img" class="marginb30">
+                <p class="text-dark">{{ title }}</p>
             </a>
-            <p class="card-price">{{ price }}INR</p>
+            <p>&#8377;&nbsp;&nbsp;{{ price }}&nbsp;INR</p>
         </div>
     </div>
 </div>

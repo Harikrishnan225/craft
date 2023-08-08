@@ -44,7 +44,7 @@ $shopnow-background-color: #313323;
 
 .marginbottom {
     margin-bottom: 5em;
-    margin-left: 104px;
+    margin-left: 6.5em;
 }
 
 .shopnow {
@@ -59,14 +59,14 @@ $shopnow-background-color: #313323;
     .logo_image {
         width: 135px;
         height: 135px;
-        margin-left: 10px;
+        margin-left: 2.5em;
     }
     .background_image {
         background-size: 100% 100%;
     }
 
     .heading_title {
-        margin-left: 5px;
+        margin-left: var(--marginleft5);
 
         h2 {
             font-size: 48px;
@@ -76,7 +76,7 @@ $shopnow-background-color: #313323;
     }
 
     .heading_sub-title {
-        margin-left: 5px;
+        margin-left: var(--marginleft5);
 
         p {
             width: 23em;
@@ -95,7 +95,7 @@ $shopnow-background-color: #313323;
     }
 
     .marginbottom {
-        margin-left: 5px;
+        margin-left: var(--marginleft5);
     }
 
     .slidewidth {
@@ -107,7 +107,7 @@ $shopnow-background-color: #313323;
     .logo_image {
         width: 135px;
         height: 135px;
-        margin-left: 10px;
+        margin-left: 2.5em;
     }
 
     .background_image {
@@ -115,7 +115,7 @@ $shopnow-background-color: #313323;
     }
 
     .heading_title {
-        margin-left: 5px;
+        margin-left: var(--marginleft5);
 
         h2 {
             font-size: 48px;
@@ -125,7 +125,7 @@ $shopnow-background-color: #313323;
     }
 
     .heading_sub-title {
-        margin-left: 5px;
+        margin-left: var(--marginleft5);
 
         p {
             width: 23em;

@@ -2,6 +2,7 @@
     background-color: #3e402d;
     background-image: url("//src/assets/counter-bg.webp");
     padding: 94px 0;
+    margin-bottom: var(--marginbtm100);
     .explore__heading {
         font-size: 40px;
         color: #f9f2ea;
@@ -15,7 +16,6 @@
         font-size: 20px;
         line-height: 30px;
         color: #f9f2ea;
-        border-bottom: 1px solid #f9f2ea;
     }
 }
 .count100 {

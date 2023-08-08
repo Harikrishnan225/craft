@@ -48,11 +48,13 @@ $background-color: #313323;
     }
     .explore_collection {
         padding: 10px 0 11em;
-        background-size: 15em 15em;
+        background-size: 18em 18em;
+        background-position-x: 140%;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .explore_collection {
         background-size: 20em 20em;
+        background-position-x: 118%;
     }
 }
